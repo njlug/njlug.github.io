@@ -14,18 +14,13 @@
 					{{ content }}
 					<div class="meta">
 						<p class="date-publish">
-							Published: 
+							发布于:
 							<date class="date-pub" title="{{ page.date | date_to_xmlschema }}" datetime="{{ page.date | date_to_xmlschema }}" pubdate>
-							<span class="month"><abbr>{{ page.date | date: '%B' }}</abbr></span>
-							<span class="day">{{ page.date | date: '%d' }}</span>
-							<span class="year">{{ page.date | date: '%Y' }}</span>
+              <span class="year">{{ latest.date | date: '%Y' }}年</span>
+              <span class="month"><abbr>{{ latest.date | date: '%m' }}月</abbr></span>
+              <span class="day">{{ latest.date | date: '%d' }}日</span>
 							</date>
 						</p>
-						<ul class="list-category list-linear">
-							<li class="list-head">category: </li>
-							{% assign categories_list = page.categories %}
-							{% include JB/categories_list %}
-						</ul>
 						<ul class="list-tag list-linear">
 							<li class="list-head">tags: </li>
 							{% assign tags_list = page.tags %}
@@ -40,10 +35,10 @@
 							<li><div class="twitter-follow"><a href="https://twitter.com/{{ site.author.twitter }}" class="twitter-follow-button" data-show-count="false" data-lang="en"></a></div></li>
 						</ul>
 					</div>
-					
+
 					{% include JB/comments %}
 				</div><!-- misc-content -->
-				
+
 			</div><!-- bd -->
 			<footer class="unit-foot">
 				<div class="unit-inner unit-foot-inner">
@@ -61,7 +56,7 @@
 						</ul>
 					</nav>
 					<p class="gotop">
-						<a href="#page">Back to Top</a>
+						<a href="#page">回到页面顶部</a>
 					</p>
 				</div>
 			</footer>

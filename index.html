@@ -1,0 +1,46 @@
+---
+layout: page
+title: 寻找南京 Linux 爱好者! 每月第二个周末见!
+---
+{% include JB/setup %}
+
+{% assign latest = site.posts.first %}
+<article class="unit-article layout-post">
+  <div class="unit-inner unit-article-inner">
+    <div class="content">
+      <div class="unit-head">
+        <div class="unit-inner unit-head-inner">
+          <h1>{{ latest.title }}</h1>
+        </div><!-- unit-inner -->
+      </div><!-- unit-head -->
+
+      <div class="bd">
+        <div class="entry-content">
+          {{ latest.content }}
+          <div class="meta">
+            <p class="date-publish">
+              发布于:
+              <date class="date-pub" title="{{ latest.date | date_to_xmlschema }}" datetime="{{ latest.date | date_to_xmlschema }}" pubdate>
+              <span class="year">{{ latest.date | date: '%Y' }}年</span>
+              <span class="month"><abbr>{{ latest.date | date: '%m' }}月</abbr></span>
+              <span class="day">{{ latest.date | date: '%d' }}日</span>
+              </date>
+            </p>
+          </div><!-- meta -->
+        </div><!-- entry-content -->
+        <div class="misc-content">
+          <div class="social">
+            <ul class="list-linear">
+              <li><div class="twitter-tweet"><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="{{ site.author.twitter }}" data-lang="en">Tweet</a></div></li>
+              <li><div class="twitter-follow"><a href="https://twitter.com/{{ site.author.twitter }}" class="twitter-follow-button" data-show-count="false" data-lang="en"></a></div></li>
+            </ul>
+          </div>
+
+          {% include JB/comments %}
+        </div><!-- misc-content -->
+
+      </div><!-- bd -->
+
+    </div><!-- content -->
+  </div><!-- unit-inner -->
+</article>
