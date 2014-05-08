@@ -5,7 +5,7 @@ nanjinglug.org
 
 基于 [JekyllBootstrap][jekyllbootstrap] & [GitHub Pages][github-pages] 搭建
 
-Theme: [mark-reid][mark-reid]
+Theme: [the-minimum][theme]
 
 ## 协作
 
@@ -40,7 +40,7 @@ $ rake post title="2014年5月聚会"
 
 [github-pages]:https://pages.github.com/
 [jekyllbootstrap]:http://jekyllbootstrap.com/
-[mark-reid]:http://themes.jekyllbootstrap.com/preview/mark-reid/
+[theme]:http://themes.jekyllbootstrap.com/preview/the-minimum/
 [contrib]:https://github.com/njlug/njlug.github.io/graphs/contributors
 [code-guide]:http://njlug.github.io/lessons/2011/12/29/jekyll-introduction/
 [jekyll]:http://jekyllrb.com/
