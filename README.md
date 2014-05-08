@@ -9,27 +9,38 @@ Theme: [mark-reid][mark-reid]
 
 ## 协作
 
-#### 如果想更新网站代码(例如更新样式主题，添加板块，更新布局等等)：
+如果要:
+
+更新网站代码(例如更新样式主题，添加板块，更新布局等等)
+
+**or**
+
+添加文章(例如聚会公告，聚会记录):
 
 * Fork 这个 Git 库
 * 在你的 Git 库中做修改并 commit 你的修改
 * 向这里发送 Pull Request
 
-#### 如果想添加文章(例如聚会公告，聚会记录):
+## 修改
 
-* Fork [articles] Git 库
-* 在你的 Git 库中做修改并 commit 你的修改
-* 向 [articles] 发送 Pull Request
+#### 修改代码请参见我们的这篇[文章][code-guide]
+
+#### 添加文章
+
+如果你已经安装 [jekyll][jekyll]，你可以通过下面的命令创建新文章，并加以编辑
+
+```
+$ rake post title="2014年5月聚会"
+```
 
 ## 贡献
 
-* [代码维护][site-code]
-* [文章贡献][articles-contrib]
+* [贡献列表][contrib]
 
 
 [github-pages]:https://pages.github.com/
 [jekyllbootstrap]:http://jekyllbootstrap.com/
 [mark-reid]:http://themes.jekyllbootstrap.com/preview/mark-reid/
-[site-code]:https://github.com/njlug/njlug.github.io/graphs/contributors
-[articles]:https://github.com/njlug/articles
-[articles-contrib]:https://github.com/njlug/articles/graphs/contributors
+[contrib]:https://github.com/njlug/njlug.github.io/graphs/contributors
+[code-guide]:http://njlug.github.io/categories.html#lessons-ref
+[jekyll]:http://jekyllrb.com/
