@@ -5,3 +5,4 @@ source 'https://ruby.taobao.org/'
 
 # GitHub Pages
 gem 'github-pages'
+gem 'kramdown'
