@@ -42,5 +42,5 @@ $ rake post title="2014年5月聚会"
 [jekyllbootstrap]:http://jekyllbootstrap.com/
 [mark-reid]:http://themes.jekyllbootstrap.com/preview/mark-reid/
 [contrib]:https://github.com/njlug/njlug.github.io/graphs/contributors
-[code-guide]:http://njlug.github.io/categories.html#lessons-ref
+[code-guide]:http://njlug.github.io/lessons/2011/12/29/jekyll-introduction/
 [jekyll]:http://jekyllrb.com/
