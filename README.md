@@ -23,8 +23,8 @@ Theme: [mark-reid][mark-reid]
 
 ## 贡献
 
-[代码维护][site-code]
-[文章贡献][articles-contrib]
+* [代码维护][site-code]
+* [文章贡献][articles-contrib]
 
 
 [mark-reid]:http://themes.jekyllbootstrap.com/preview/mark-reid/
