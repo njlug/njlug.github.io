@@ -1,40 +1,35 @@
-# Jekyll-Bootstrap
+nanjinglug.org
+===============
 
-The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
+## 环境
 
-## Usage
+基于 [JekyllBootstrap][jekyllbootstrap] & [GitHub Pages][github-pages] 搭建
 
-For all usage and documentation please see: <http://jekyllbootstrap.com>
+Theme: [mark-reid][mark-reid]
 
-## Version
+## 协作
 
-0.3.0 - stable and versioned using [semantic versioning](http://semver.org/).
+#### 如果想更新网站代码(例如更新样式主题，添加板块，更新布局等等)：
 
-**NOTE:** 0.3.0 introduces a new theme which is not backwards compatible in the sense it won't _look_ like the old version.
-However, the actual API has not changed at all.
-You might want to run 0.3.0 in a branch to make sure you are ok with the theme design changes.
+* Fork 这个 Git 库
+* 在你的 Git 库中做修改并 commit 你的修改
+* 向这里发送 Pull Request
 
-## Contributing
+#### 如果想添加文章(例如聚会公告，聚会记录):
 
+* Fork [articles] Git 库
+* 在你的 Git 库中做修改并 commit 你的修改
+* 向 [articles] 发送 Pull Request
 
-To contribute to the framework please make sure to checkout your branch based on `jb-development`!!
-This is very important as it allows me to accept your pull request without having to publish a public version release.
+## 贡献
 
-Small, atomic Features, bugs, etc.
-Use the `jb-development` branch but note it will likely change fast as pull requests are accepted.
-Please rebase as often as possible when working.
-Work on small, atomic features/bugs to avoid upstream commits affecting/breaking your development work.
-
-For Big Features or major API extensions/edits:
-This is the one case where I'll accept pull-requests based off the master branch.
-This allows you to work in isolation but it means I'll have to manually merge your work into the next public release.
-Translation : it might take a bit longer so please be patient! (but sincerely thank you).
-
-**Jekyll-Bootstrap Documentation Website.**
-
-The documentation website at <http://jekyllbootstrap.com> is maintained at https://github.com/plusjade/jekyllbootstrap.com
+* [代码维护][site-code]
+* [文章贡献][articles-contrib]
 
 
-## License
-
-[MIT](http://opensource.org/licenses/MIT)
+[github-pages]:https://pages.github.com/
+[jekyllbootstrap]:http://jekyllbootstrap.com/
+[mark-reid]:http://themes.jekyllbootstrap.com/preview/mark-reid/
+[site-code]:https://github.com/njlug/njlug.github.io/graphs/contributors
+[articles]:https://github.com/njlug/articles
+[articles-contrib]:https://github.com/njlug/articles/graphs/contributors
