@@ -24,9 +24,10 @@ Theme: [mark-reid][mark-reid]
 ## 贡献
 
 [代码维护][site-code]
-[文章贡献][articles]
+[文章贡献][articles-contrib]
 
 
 [mark-reid]:http://themes.jekyllbootstrap.com/preview/mark-reid/
 [site-code]:https://github.com/njlug/njlug.github.io/graphs/contributors
-[articles]:https://github.com/njlug/articles/graphs/contributors
+[articles]:https://github.com/njlug/articles
+[articles-contrib]:https://github.com/njlug/articles/graphs/contributors
