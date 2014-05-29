@@ -7,7 +7,7 @@ description: ""
 
 |ID | 组织单位 | 公开的邮箱|
 | ---------- | ------ | -----------------------|
-| plutoid.th | 浪潮 |  |
+| plutoid.th | SAP |  |
 | [李凡希](http://www.freemindworld.com) |阿里巴巴 | |
 | [alswlx](http://dddspace.com) | 联创科技 |  |
 | [陈沁欣](http://www.followstars.cn) | 南京理工 |  |
