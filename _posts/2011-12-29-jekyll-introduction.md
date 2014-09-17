@@ -2,7 +2,8 @@
 layout: post
 category : lessons
 tagline: "Supporting tagline"
-tags : [说明]
+tags:
+  - 说明
 ---
 {% include JB/setup %}
 
