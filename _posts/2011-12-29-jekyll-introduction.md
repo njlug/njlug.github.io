@@ -1,6 +1,6 @@
 ---
 layout: post
-title: jekyll-introduction
+title: jekyll introduction
 description: ''
 category : lessons
 tags:
