@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Links"
-description: ""
+description: "友情链接"
 ---
 {% include JB/setup %}
 
