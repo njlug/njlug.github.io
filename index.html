@@ -11,7 +11,7 @@ layout: default
         <div class="blog-post">
             <h2>
                 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                <small>{{ page.date | date: "%F" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</small>
+                <small>{{ post.date | date: "%F" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</small>
             </h2>
             {{ post.content }}
         </div><!-- /.blog-post -->
