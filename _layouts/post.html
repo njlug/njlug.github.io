@@ -1,5 +1,14 @@
 ---
 layout: default
 ---
-{% include JB/setup %}
-{% include themes/the-minimum/post.html %}
+
+<div class="row">
+    <div class="col-sm-12 blog-main">
+        <div class="blog-head">
+            <h2>{{ page.title }} <small>{{ page.date | date: "%F" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</small></h2>
+        </div>
+        <div class="blog-post">
+            {{ content }}
+        </div><!-- /.blog-post -->
+    </div><!-- /.blog-main -->
+</div>

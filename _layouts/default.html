@@ -1,6 +1,20 @@
----
-theme :
-  name : the-minimum
----
-{% include JB/setup %}
-{% include themes/the-minimum/default.html %}
+<!DOCTYPE html>
+<html lang="zh">
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <div class="container">
+      {{ content }}
+    </div>
+    {% include footer.html %}
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<link rel="stylesheet" href="/css/hljs_style.css">
+<script src="/js/highlight.min.js"></script>
+<script src="/js/jquery-2.1.1.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>
+</html>

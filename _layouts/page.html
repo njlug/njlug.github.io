@@ -1,5 +1,26 @@
 ---
 layout: default
 ---
-{% include JB/setup %}
-{% include themes/the-minimum/page.html %}
+<div class="blog-header">
+    <h1 class="blog-title">{{ page.title }}</h1>
+</div>
+<div class="row">
+    <div class="col-sm-8 blog-main">
+        <div class="blog-post">
+            {{ content }}
+        </div><!-- /.blog-post -->
+    </div><!-- /.blog-main -->
+    <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+        <div class="sidebar-module sidebar-module-inset">
+            {% include widget.html %}
+            </div>
+            <div class="sidebar-module">
+                <h4>我们还在这里</h4>
+                <ol class="list-unstyled">
+                    <li><a href="https://github.com/njlug">GitHub</a></li>
+                    <li><a href="https://plus.google.com/100944744118135065951/">Google+</a></li>
+                    <li><a href="https://twitter.com/nanjinglug">Twitter</a></li>
+                </ol>
+            </div>
+        </div><!-- /.blog-sidebar -->
+    </div><!-- /.row -->
